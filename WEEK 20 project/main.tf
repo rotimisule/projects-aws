@@ -1,6 +1,6 @@
 ##main code
 resource "aws_instance" "ec2" {
-  ami               = "ami-053b0d53c279acc90"
+  ami               = "ami-024e6efaf93d85776"
   instance_type     = var.type
   availability_zone = var.az
   security_groups   = [aws_security_group.project20.name]
